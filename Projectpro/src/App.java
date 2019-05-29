@@ -55,7 +55,7 @@ public class App extends GraphicsProgram {
 		GImage pez;
 		int anglePeix = ANGLES[aleatori.nextInt(ANGLES.length)];
 		int sexePeix = aleatori.nextInt(2);
-		String textPeix = "peix" + sexePeix + "" + anglePeix + ".png";
+		String textPeix = "../ressource/peix" + sexePeix + "" + anglePeix + ".png";
 		pez = new GImage(textPeix);
 		add(pez);
 		pez.setSize(30, 30);
@@ -69,7 +69,7 @@ public class App extends GraphicsProgram {
 		GImage taur;
 		int angleTauro = ANGLES[aleatori.nextInt(ANGLES.length)];
 		int sexeTauro = aleatori.nextInt(2);
-		String textTauro = "tauro" + sexeTauro + "" + angleTauro + ".png";
+		String textTauro = "../ressource/tauro" + sexeTauro + "" + angleTauro + ".png";
 		taur = new GImage(textTauro);
 		taur.setSize(30, 30);
 		add(taur);
@@ -83,7 +83,7 @@ public class App extends GraphicsProgram {
 		GImage Tortugues;
 		int angleTortugues = ANGLES[aleatori.nextInt(ANGLES.length)];
 		int sexeTortugues = aleatori.nextInt(2);
-		String textTauro = "Tortugue" + sexeTortugues + "" + angleTortugues + ".jpg";
+		String textTauro = "../ressource/Tortugue" + sexeTortugues + "" + angleTortugues + ".jpg";
 		Tortugues = new GImage(textTauro);
 		Tortugues.setSize(30, 30);
 		add(Tortugues);
@@ -97,7 +97,7 @@ public class App extends GraphicsProgram {
 		GImage dolfin;
 		int angledolfin = Dolfin[aleatori.nextInt(Dolfin.length)];
 		int sexedolfin = aleatori.nextInt(2);
-		String textTauro = "dolfin" + sexedolfin + "" + angledolfin + ".jpg";
+		String textTauro = "../ressource/dolfin" + sexedolfin + "" + angledolfin + ".jpg";
 		dolfin = new GImage(textTauro);
 		dolfin.setSize(30, 30);
 		add(dolfin);
