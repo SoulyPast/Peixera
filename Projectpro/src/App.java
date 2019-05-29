@@ -21,7 +21,7 @@ public class App extends GraphicsProgram {
 	
 	public void run() {
 		
-		AudioClip sonidoFondo = Applet.newAudioClip(getClass().getResource("Sonido.wav"));
+		AudioClip sonidoFondo = Applet.newAudioClip(getClass().getResource("../Music/Sonido.wav"));
 		sonidoFondo.play();
 		
 		setSize(1000, 800);
